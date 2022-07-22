@@ -1,6 +1,6 @@
 import ScrollSuave from "./moudeles/scroll-suave.js"
 import initAnimacaoScroll from "./moudeles/scroll-animacao.js"
-import initAccordion from "./moudeles/accordion.js"
+import Accordion from "./moudeles/accordion.js"
 import iniTabNav from "./moudeles/tabnav.js"
 import initModal from "./moudeles/modal.js"
 import initTooltip from "./moudeles/tooltip.js"
@@ -13,8 +13,9 @@ import initFetchBitcoin from "./moudeles/fetch-bitcoin.js"
 const scrollSuave = new ScrollSuave('[data-menu="suave"] a[href^="#"]')
 scrollSuave.init()
 
-initAnimacaoScroll()
-initAccordion()
+const accordion = new Accordion('[data-anime="accordion"] dt')
+accordion.init()
+
 iniTabNav()
 initModal()
 initTooltip()
@@ -23,6 +24,6 @@ initMenuMobile()
 initFuncionamento()
 initFetchAnimais()
 initFetchBitcoin()
-
+initAnimacaoScroll()
 
 
