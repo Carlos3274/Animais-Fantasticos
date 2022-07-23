@@ -28,7 +28,9 @@ export default class iniTabNav {
       // ativar primeiro item
       this.activeTab(0)
       this.addTabNavEvent();
+
     }
-  }  
+    return this
+  }   
 }
 
