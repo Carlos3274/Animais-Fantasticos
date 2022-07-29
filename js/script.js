@@ -10,7 +10,6 @@ import fetchAnimais from "./moudeles/fetch-animais.js"
 import fetchBitcoin from "./moudeles/fetch-bitcoin.js"
 import ScrollAnima from "./moudeles/scroll-anima.js"
 
-
 const scrollAnima = new ScrollAnima('[data-anime="scroll"]')
 scrollAnima.init()
 
@@ -31,7 +30,6 @@ tooltip.init()
 
 fetchAnimais('../../animaisapi.json', '.numeros-grid')
 fetchBitcoin('https://blockchain.info/ticker', '.btc-preco')
-
 initDropdownMenu()
 initMenuMobile()
 initFuncionamento()
