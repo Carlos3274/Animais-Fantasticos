@@ -9,7 +9,7 @@ import ScrollAnima from "./moudeles/scroll-anima.js"
 import DropdownMenu from "./moudeles/dropdown-menu.js"
 import MenuMobile from "./moudeles/menu-mobile.js"
 import Funcionamento from "./moudeles/funcionamento.js"
-
+import SlideNav from "./moudeles/slide.js"
 
 const scrollAnima = new ScrollAnima('[data-anime="scroll"]')
 scrollAnima.init()
@@ -38,6 +38,9 @@ menuMobile.init()
 const funcionamento = new Funcionamento('[data-semana]', 'aberto')
 funcionamento.init()
 
+const slide = new SlideNav('.slide', '.slide-wrapper');
+slide.init();
+slide.addControl('.custom-controls')
 
 fetchAnimais('../../animaisapi.json', '.numeros-grid')
 fetchBitcoin('https://blockchain.info/ticker', '.btc-preco')
