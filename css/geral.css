@@ -187,6 +187,16 @@ body {
   font-weight: bold;
 }
 
+.copy p a {
+  text-decoration: none;
+  color: #333;
+}
+
+.copy p a:hover {
+  text-decoration: underline;
+  filter: brightness(1.75);
+}
+
 @media(max-width: 700px) {
   .grid-container {
     grid-template-columns: 1fr;
