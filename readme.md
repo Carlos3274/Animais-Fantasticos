@@ -7,7 +7,7 @@
 <h4 align="center"><a target="_blank" href="https://carlos3274.github.io/Animais-Fantasticos/">Clique aqui para acessar o projeto 🔗</a></h4>
 <br>
 <p align="center">
-  <img alt="Preview" src="img/animais-preview.gif" >
+  <img width="50%" height="50%" alt="Preview" src="img/animais-preview.gif" >
 </p>
 
 ## 💻 Projeto
