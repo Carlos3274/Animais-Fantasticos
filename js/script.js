@@ -42,7 +42,7 @@ const slide = new SlideNav('.slide', '.slide-wrapper');
 slide.init();
 slide.addControl('.custom-controls')
 
-fetchAnimais('../../animaisapi.json', '.numeros-grid')
+fetchAnimais('https://carlos3274.github.io/Animais-Fantasticos/animaisapi.json', '.numeros-grid')
 fetchBitcoin('https://blockchain.info/ticker', '.btc-preco')
 
 
